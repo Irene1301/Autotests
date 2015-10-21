@@ -226,7 +226,7 @@ public class Test {
 		    } catch (Error e) {
 		      verificationErrors.append(e.toString());
 		    }
-		    // Verify tooltip hovering over Email Address* but could nto verify text ?
+		    // Verify tooltip hovering over Email Address* but could not verify text ?
 		    try {
 		      assertEquals("", driver.findElement(By.cssSelector("#jform_email-lbl")).getAttribute("title"));
 		    } catch (Error e) {
